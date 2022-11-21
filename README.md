@@ -32,3 +32,5 @@ A la hora de trabajar, debes optar por exportar las imágenes directamente desde
 ![FIGMA](https://user-images.githubusercontent.com/112779156/198767882-c358e818-afcd-4315-94d3-d0553f0dfa4a.svg)
 
 ![VSCODE](https://user-images.githubusercontent.com/112779156/198768290-22f04b75-8e07-4119-90ca-3c928eb1a214.svg)
+
+![JAVASCRIPT](https://user-images.githubusercontent.com/112779156/202943766-12b3a7a7-ddf8-44eb-a9af-4c46dcdc4d6e.svg)
