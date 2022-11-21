@@ -17,8 +17,8 @@ function hidePopup() {
   popup.classList.remove("popup_open");
 }
 
-function handleProfileFormSubmit(e) {
-  e.preventDefault();
+function handleProfileFormSubmit(event) {
+  event.preventDefault();
   name.textContent = nameInput.value;
   description.textContent = descriptionInput.value;
   hidePopup();
