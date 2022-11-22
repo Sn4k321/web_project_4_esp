@@ -1,11 +1,11 @@
 const editButton = document.querySelector(".profile__edit-button");
-let closeIcon = document.querySelector(".popup__close-icon");
-let popup = document.querySelector(".popup");
-let nameInput = document.querySelector("#name");
-let descriptionInput = document.querySelector("#description");
-let formElement = document.querySelector(".form");
-let name = document.querySelector(".profile__name");
-let description = document.querySelector(".profile__job");
+const closeIcon = document.querySelector(".popup__close-icon");
+const popup = document.querySelector(".popup");
+const nameInput = document.querySelector("#name");
+const descriptionInput = document.querySelector("#description");
+const formElement = document.querySelector(".form");
+const name = document.querySelector(".profile__name");
+const description = document.querySelector(".profile__job");
 
 function showPopup() {
   nameInput.value = name.textContent;
