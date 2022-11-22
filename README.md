@@ -17,6 +17,7 @@ Proyecto desarrollado para emular una red social, utilizando las herramientas ad
 
 ## Tecnologías utilizadas:
 
+Se utilizo la metodologia BEM para el desarrollo del proyecto asi como tambien:
 
 ![HTML5](https://user-images.githubusercontent.com/112779156/194786524-47389beb-4579-45b2-a5b5-be2cc9ae1666.svg)
 
