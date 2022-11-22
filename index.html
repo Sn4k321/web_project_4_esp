@@ -1,103 +1,166 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Proyecto 4: Alrededor de los Estados Unidos</title>
-    <link rel="stylesheet" href="./pages/index.css">
-</head>
-<body>
+    <link rel="stylesheet" href="./pages/index.css" />
+  </head>
+  <body>
     <div class="container">
-        <header class="header">
-            <img src="./images/logo.svg" alt="Logo around the us" class="header__logo">
-        </header>
-        
-        <main>
-            <div class="popup">
-                <div class="popup__content">
-                    <img src="./images/Close_Icon.svg" alt="icono cerrar" class="popup__close-icon">
-                    <form class="form">
-                        <h2 class="form__title">Edit Profile</h2>
-                        <input type="text" class="form__input" id="name">
-                        <input type="text" class="form__input" id="description">
-                        <button class="form__button">Guardar</button>
-                    </form>
-                </div>
-            </div>
+      <header class="header">
+        <img
+          src="./images/logo.svg"
+          alt="Logo around the us"
+          class="header__logo"
+        />
+      </header>
 
-            <section class="profile">
-                <img src="./images/JacquesCousteau.jpg" alt="fotografia de Jacques-Yves Cousteau" class="profile__img">
-                <div class="profile__info">
-                    <h1 class="profile__name">Jacques Cousteau</h1>
-                    <button class="profile__edit-button">
-                        <img src="./images/Edit_Button.svg" alt="boton para editar">
-                    </button>
-                    <p class="profile__job">Explorador</p>
-                </div>
-                <button class="profile__add-button">
-                    <img src="./images/Add_Button.svg" alt="boton añadir" class="profile__add-button_img">
-                </button>
-            </section>
-        
-            <section>
-                <ul class="elements">
-                    <li class="element">
-                        <img src="./images/img.jpg" alt="foto Valle de Yosemite" class="element__img">
-                        <div class="element__publication">
-                            <h2 class="element__title">Valle de Yosemite</h2>
-                            <img src="./images/heart.svg" alt="icono corazon" class="element__heart-icon">
-                        </div>
-                    </li>
+      <main>
+        <div class="popup">
+          <div class="popup__content">
+            <img
+              src="./images/Close_Icon.svg"
+              alt="icono cerrar"
+              class="popup__close-icon"
+            />
+            <form class="form">
+              <h2 class="form__title">Edit Profile</h2>
+              <input type="text" class="form__input" id="name" />
+              <input type="text" class="form__input" id="description" />
+              <button class="form__button">Guardar</button>
+            </form>
+          </div>
+        </div>
 
-                    <li class="element">
-                        <img src="./images/img2.jpg" alt="foto lago louise" class="element__img">
-                        <div class="element__publication">
-                            <h2 class="element__title">Lago Louise</h2>
-                            <img src="./images/heart.svg" alt="icono corazon" class="element__heart-icon">
-                        </div>
-                    </li>
+        <section class="profile">
+          <img
+            src="./images/JacquesCousteau.jpg"
+            alt="fotografia de Jacques-Yves Cousteau"
+            class="profile__img"
+          />
+          <div class="profile__info">
+            <h1 class="profile__name">Jacques Cousteau</h1>
+            <button class="profile__edit-button">
+              <img src="./images/Edit_Button.svg" alt="boton para editar" />
+            </button>
+            <p class="profile__job">Explorador</p>
+          </div>
+          <button class="profile__add-button">
+            <img
+              src="./images/Add_Button.svg"
+              alt="boton añadir"
+              class="profile__add-button_img"
+            />
+          </button>
+        </section>
 
-                    <li class="element">
-                        <img src="./images/img3.jpg" alt="foto montañas calvas" class="element__img">
-                        <div class="element__publication">
-                            <h2 class="element__title">Montañas Calvas</h2>
-                            <img src="./images/heart.svg" alt="icono corazon" class="element__heart-icon">
-                        </div>
-                    </li>
+        <section>
+          <ul class="elements">
+            <li class="element">
+              <img
+                src="./images/img.jpg"
+                alt="foto Valle de Yosemite"
+                class="element__img"
+              />
+              <div class="element__publication">
+                <h2 class="element__title">Valle de Yosemite</h2>
+                <img
+                  src="./images/heart.svg"
+                  alt="icono corazon"
+                  class="element__heart-icon"
+                />
+              </div>
+            </li>
 
-                    <li class="element">
-                        <img src="./images/img4.jpg" alt="foto latemar" class="element__img">
-                        <div class="element__publication">
-                            <h2 class="element__title">Latemar</h2>
-                            <img src="./images/heart.svg" alt="icono corazon" class="element__heart-icon">
-                        </div>
-                    </li>
+            <li class="element">
+              <img
+                src="./images/img2.jpg"
+                alt="foto lago louise"
+                class="element__img"
+              />
+              <div class="element__publication">
+                <h2 class="element__title">Lago Louise</h2>
+                <img
+                  src="./images/heart.svg"
+                  alt="icono corazon"
+                  class="element__heart-icon"
+                />
+              </div>
+            </li>
 
-                    <li class="element">
-                        <img src="./images/img5.jpg" alt="foto Vanoise National Park" class="element__img">
-                        <div class="element__publication">
-                            <h2 class="element__title">Vanoise National Park</h2>
-                            <img src="./images/heart.svg" alt="icono corazon" class="element__heart-icon">
-                        </div>
-                    </li>
+            <li class="element">
+              <img
+                src="./images/img3.jpg"
+                alt="foto montañas calvas"
+                class="element__img"
+              />
+              <div class="element__publication">
+                <h2 class="element__title">Montañas Calvas</h2>
+                <img
+                  src="./images/heart.svg"
+                  alt="icono corazon"
+                  class="element__heart-icon"
+                />
+              </div>
+            </li>
 
-                    <li class="element">
-                        <img src="./images/img6.jpg" alt="foto Lago di Braies" class="element__img">
-                        <div class="element__publication">
-                            <h2 class="element__title">Lago di Braies</h2>
-                            <img src="./images/heart.svg" alt="icono corazon" class="element__heart-icon">
-                        </div>
-                    </li>
-                </ul>
-            </section>
-        </main>
+            <li class="element">
+              <img
+                src="./images/img4.jpg"
+                alt="foto latemar"
+                class="element__img"
+              />
+              <div class="element__publication">
+                <h2 class="element__title">Latemar</h2>
+                <img
+                  src="./images/heart.svg"
+                  alt="icono corazon"
+                  class="element__heart-icon"
+                />
+              </div>
+            </li>
 
-        <footer class="footer">
-            <p class="footer__copyright">&copy; 2021 Alrededor de los EEUU</p>
-        </footer>
+            <li class="element">
+              <img
+                src="./images/img5.jpg"
+                alt="foto Vanoise National Park"
+                class="element__img"
+              />
+              <div class="element__publication">
+                <h2 class="element__title">Vanoise National Park</h2>
+                <img
+                  src="./images/heart.svg"
+                  alt="icono corazon"
+                  class="element__heart-icon"
+                />
+              </div>
+            </li>
 
+            <li class="element">
+              <img
+                src="./images/img6.jpg"
+                alt="foto Lago di Braies"
+                class="element__img"
+              />
+              <div class="element__publication">
+                <h2 class="element__title">Lago di Braies</h2>
+                <img
+                  src="./images/heart.svg"
+                  alt="icono corazon"
+                  class="element__heart-icon"
+                />
+              </div>
+            </li>
+          </ul>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <p class="footer__copyright">&copy; 2021 Alrededor de los EEUU</p>
+      </footer>
     </div>
     <script src="./scripts/index.js"></script>
-</body>
+  </body>
 </html>
