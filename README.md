@@ -32,3 +32,5 @@ Se utilizo la metodologia BEM para el desarrollo del proyecto asi como tambien:
 ![JAVASCRIPT](https://user-images.githubusercontent.com/112779156/202943766-12b3a7a7-ddf8-44eb-a9af-4c46dcdc4d6e.svg)
 
 Gh-pages: https://sn4k321.github.io/web_project_4_esp/
+
+
