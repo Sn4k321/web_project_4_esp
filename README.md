@@ -8,11 +8,19 @@ Proyecto desarrollado para emular una red social, utilizando las herramientas ad
 
 * [Figma](https://www.figma.com/file/LDMgqWesKpQkIwhOfEBuTS/WEB%2C-Sprint-5%3A-Around-The-U.S.-%7C-desktop-%2B-mobile?node-id=0%3A1)
 
-**Imágenes del proyecto**
+**Imágenes del proyecto 4 **
 
 ![web_project_4_1](https://user-images.githubusercontent.com/112779156/202943611-011f4657-848f-4f16-b8ca-a36798d9e5ff.png)
 
 ![web_project_4_2](https://user-images.githubusercontent.com/112779156/202943625-d8b58cff-f9c1-474c-892f-76782f3a31e2.png)
+
+**Imágenes del proyecto 5 **
+
+![imagen](https://user-images.githubusercontent.com/112779156/206077513-a5fce9ca-b374-4f5c-96cb-0db2dac8319d.png)
+
+![imagen](https://user-images.githubusercontent.com/112779156/206077607-cd129c59-96ad-40d9-90f9-2a1c519e3818.png)
+
+![imagen](https://user-images.githubusercontent.com/112779156/206077737-90059783-a95e-4bc4-8e2d-df5b0616ac33.png)
 
 
 ## Tecnologías utilizadas:
