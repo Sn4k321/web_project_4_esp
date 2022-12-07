@@ -20,7 +20,11 @@ Proyecto desarrollado para emular una red social, utilizando las herramientas ad
 
 ![imagen](https://user-images.githubusercontent.com/112779156/206077607-cd129c59-96ad-40d9-90f9-2a1c519e3818.png)
 
+![imagen](https://user-images.githubusercontent.com/112779156/206077904-7255ec7f-fa64-4f45-9e8d-87b0bf64f9dd.png)
+
 ![imagen](https://user-images.githubusercontent.com/112779156/206077737-90059783-a95e-4bc4-8e2d-df5b0616ac33.png)
+
+![imagen](https://user-images.githubusercontent.com/112779156/206077977-4cf720e4-87b2-4da0-a8a5-029b401407fe.png)
 
 
 ## Tecnologías utilizadas:
