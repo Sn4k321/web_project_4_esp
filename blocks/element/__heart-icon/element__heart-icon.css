@@ -1,9 +1,0 @@
-.element__heart-icon{
-    width: 21px;
-    cursor: pointer;
-    transition: all 0.3s ease;
-}
-  
-.element__heart-icon:hover {
-    opacity: 0.6;
-}

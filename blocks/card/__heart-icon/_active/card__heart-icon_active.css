@@ -1,0 +1,4 @@
+.card__heart-icon_active{
+    width: 21px;
+    background-image: url(../../../../images/heart_active.svg);
+}

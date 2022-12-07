@@ -1,4 +1,5 @@
-.element{
+.card{
+    position: relative;
     background-color: #fff;
     height: 361px;
     border-radius: 10px;

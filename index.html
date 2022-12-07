@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="es">
   <head>
-    <meta charset="UTF-8" />
+    <meta charset="UTF-8"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Proyecto 4: Alrededor de los Estados Unidos</title>
@@ -18,19 +18,48 @@
       </header>
 
       <main>
-        <div class="popup">
+        <!-- popup que edita el perfil -->
+        <div class="popup" id="edit_popup">
           <div class="popup__content">
             <img
               src="./images/Close_Icon.svg"
               alt="icono cerrar"
               class="popup__close-icon"
             />
-            <form class="form">
+            <form class="form" id="edit_form">
               <h2 class="form__title">Edit Profile</h2>
               <input type="text" class="form__input" id="name" />
               <input type="text" class="form__input" id="description" />
               <button class="form__button">Guardar</button>
             </form>
+          </div>
+        </div>
+        <!-- popup que agrega nuevas publicaciones -->
+        <div class="popup" id="add_popup">
+          <div class="popup__content">
+            <img
+              src="./images/Close_Icon.svg"
+              alt="icono cerrar"
+              class="popup__close-icon"
+            />
+            <form class="form" id="add_form">
+              <h2 class="form__title">Nuevo lugar</h2>
+              <input type="text" class="form__input" id="title" placeholder="Titulo" />
+              <input type="text" class="form__input" id="enlace" placeholder="Enlace a la imagen" />
+              <button class="form__button">Crear</button>
+            </form>
+          </div>
+        </div>
+
+        <div class="popup" id="img_popup">
+          <div class="popup__img-content">
+            <img
+              src="./images/Close_Icon.svg"
+              alt="Icono de cerrar"
+              class="popup__close-icon"
+            />
+            <img src="" alt="" class="popup__img" />
+            <p class="popup__title"></p>
           </div>
         </div>
 
@@ -57,109 +86,27 @@
         </section>
 
         <section>
-          <ul class="elements">
-            <li class="element">
-              <img
-                src="./images/img.jpg"
-                alt="foto Valle de Yosemite"
-                class="element__img"
-              />
-              <div class="element__publication">
-                <h2 class="element__title">Valle de Yosemite</h2>
-                <img
-                  src="./images/heart.svg"
-                  alt="icono corazon"
-                  class="element__heart-icon"
-                />
-              </div>
-            </li>
-
-            <li class="element">
-              <img
-                src="./images/img2.jpg"
-                alt="foto lago louise"
-                class="element__img"
-              />
-              <div class="element__publication">
-                <h2 class="element__title">Lago Louise</h2>
-                <img
-                  src="./images/heart.svg"
-                  alt="icono corazon"
-                  class="element__heart-icon"
-                />
-              </div>
-            </li>
-
-            <li class="element">
-              <img
-                src="./images/img3.jpg"
-                alt="foto montañas calvas"
-                class="element__img"
-              />
-              <div class="element__publication">
-                <h2 class="element__title">Montañas Calvas</h2>
-                <img
-                  src="./images/heart.svg"
-                  alt="icono corazon"
-                  class="element__heart-icon"
-                />
-              </div>
-            </li>
-
-            <li class="element">
-              <img
-                src="./images/img4.jpg"
-                alt="foto latemar"
-                class="element__img"
-              />
-              <div class="element__publication">
-                <h2 class="element__title">Latemar</h2>
-                <img
-                  src="./images/heart.svg"
-                  alt="icono corazon"
-                  class="element__heart-icon"
-                />
-              </div>
-            </li>
-
-            <li class="element">
-              <img
-                src="./images/img5.jpg"
-                alt="foto Vanoise National Park"
-                class="element__img"
-              />
-              <div class="element__publication">
-                <h2 class="element__title">Vanoise National Park</h2>
-                <img
-                  src="./images/heart.svg"
-                  alt="icono corazon"
-                  class="element__heart-icon"
-                />
-              </div>
-            </li>
-
-            <li class="element">
-              <img
-                src="./images/img6.jpg"
-                alt="foto Lago di Braies"
-                class="element__img"
-              />
-              <div class="element__publication">
-                <h2 class="element__title">Lago di Braies</h2>
-                <img
-                  src="./images/heart.svg"
-                  alt="icono corazon"
-                  class="element__heart-icon"
-                />
-              </div>
-            </li>
-          </ul>
+          <ul class="cards-content"></ul>
         </section>
       </main>
 
       <footer class="footer">
         <p class="footer__copyright">&copy; 2021 Alrededor de los EEUU</p>
       </footer>
+      <template id="card-template">
+      <li class="card">
+        <button class="card__delete"></button>
+        <img
+          src=""
+          alt=""
+          class="card__img"
+        />
+        <div class="card__publication">
+          <h2 class="card__title"></h2>
+          <button class="card__heart-icon"></button>
+        </div>
+      </li>
+    </template>
     </div>
     <script src="./scripts/index.js"></script>
   </body>
