@@ -18,40 +18,46 @@
       </header>
 
       <main>
-        <!-- popup que edita el perfil -->
-        <div class="popup" id="edit_popup">
+        <section class="popup popup_profile-edit" id="edit_popup">
+          <div class="frame" id="frame-profile-edit"></div>
           <div class="popup__content">
             <img
               src="./images/Close_Icon.svg"
               alt="icono cerrar"
               class="popup__close-icon"
             />
-            <form class="form" id="edit_form">
+            <form class="form" id="edit_form" novalidate> 
               <h2 class="form__title">Edit Profile</h2>
-              <input type="text" class="form__input" id="name" />
-              <input type="text" class="form__input" id="description" />
-              <button class="form__button">Guardar</button>
+              <input type="text" class="form__input" id="name" placeholder="Nombre" minlength="2" maxlength="40" required/>
+              <span class="form-name-error form__input-error">Rellena el campo, es obligatorio</span>
+              <input type="text" class="form__input" id="description" placeholder="Profesion" minlength="2" maxlength="200" required/>
+              <span class="form-description-error form__input-error">Rellena el campo, es obligatorio</span>
+              <button class="form__button" type="submit">Guardar</button>
             </form>
           </div>
-        </div>
-        <!-- popup que agrega nuevas publicaciones -->
-        <div class="popup" id="add_popup">
+        </section>
+
+        <section class="popup popup_newPlace" id="add_popup">
+          <div class="frame" id="frame-newPlace"></div>
           <div class="popup__content">
             <img
               src="./images/Close_Icon.svg"
               alt="icono cerrar"
               class="popup__close-icon"
             />
-            <form class="form" id="add_form">
+            <form class="form" id="add_form" novalidate>
               <h2 class="form__title">Nuevo lugar</h2>
-              <input type="text" class="form__input" id="title" placeholder="Titulo" />
-              <input type="text" class="form__input" id="enlace" placeholder="Enlace a la imagen" />
-              <button class="form__button">Crear</button>
+              <input type="text" class="form__input" id="title" placeholder="Titulo" minlength="2" maxlength="30" required/>
+              <span class="form-title-error form__input-error">Rellena el campo, es obligatorio</span>
+              <input type="url" class="form__input" id="enlace" placeholder="Enlace a la imagen" required/>
+              <span class="form-link-error form__input-error">Rellena el campo, es obligatorio</span>
+              <button type="submit" class="form__button form__button-create-card">Crear</button>
             </form>
           </div>
-        </div>
+        </section>
 
-        <div class="popup" id="img_popup">
+        <section class="popup popup_img" id="img_popup">
+          <div class="frame" id="frame-img"></div>
           <div class="popup__img-content">
             <img
               src="./images/Close_Icon.svg"
@@ -61,7 +67,7 @@
             <img src=" " alt="" class="popup__img" />
             <p class="popup__title"></p>
           </div>
-        </div>
+        </section>
 
         <section class="profile">
           <img
@@ -92,7 +98,8 @@
       <footer class="footer">
         <p class="footer__copyright">&copy; 2021 Alrededor de los EEUU</p>
       </footer>
-      <template id="card-template">
+
+      <template id="card-template" class="card-template">
       <li class="card">
         <button class="card__delete"></button>
         <img
@@ -106,7 +113,9 @@
         </div>
       </li>
     </template>
+
     </div>
     <script src="./scripts/index.js"></script>
+    <script src="./scripts/validate.js"></script>
   </body>
 </html>
